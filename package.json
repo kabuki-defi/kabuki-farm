@@ -1,0 +1,25 @@
+{
+  "name": "kabuki-farm",
+  "version": "1.0.0",
+  "description": "Farming contract of KABUKI Token",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset --network development",
+    "migrate:rinkeby": "truffle migrate --reset --network rinkeby",
+    "migrate:bsctest": "truffle migrate --reset --network bsctest",
+    "migrate:bsc": "truffle migrate --reset --network bsc",
+    "chain": "ganache-cli -p 8545 -i 15 -l 100000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabuki-defi/kabuki-farm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kabuki-defi/kabuki-farm/issues"
+  },
+  "homepage": "https://github.com/kabuki-defi/kabuki-farm#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.1"
+  }
+}
